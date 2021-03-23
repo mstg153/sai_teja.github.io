@@ -1,0 +1,291 @@
+body{
+  margin: 0px;
+  margin-top: -15px;
+
+}
+
+#body-header{
+  height: 65vh;
+  background-image:url(Picture4.jpg);
+  opacity: 0.8;
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.horizontal-list{
+  list-style: none;
+  padding: 5px;
+}
+
+.horizontal-list li{
+  display:inline-block;
+  font-size: 20px;
+  margin: 0px 10px 6px ;
+}
+
+.horizontal-list li a{
+  color: #bdb2af;
+  text-decoration: none;
+}
+
+.horizontal-list li a:hover{
+  color: white;
+  transition: color 0.6s;
+}
+
+.nav-men li a:hover{
+  border-bottom:1px solid white;
+  transition: border-bottom 1s;
+}
+
+#profile{
+  color:#bdb2af;
+  margin-top: 20vh;
+}
+#my-name{
+  font-size: 50px;
+}
+#my-name:hover{
+  color:white;
+  transition: 0.8s;
+}
+
+.social-icons li a i{
+  padding:10px;
+  border: 10px;
+  border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+  box-shadow: 0px 0px 2px 2px rgba(250, 255, 255,0.6);
+}
+
+/*main*/
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+section:nth-child(2n+1){
+  background-color: white;
+}
+
+section:nth-child(2n){
+  background-color: #f5f7ff;
+}
+
+}
+#about{
+  height: auto;
+  width: 100%;
+
+}
+#pro-img{
+  height: 160px;
+  width: 160px;
+  margin: auto;
+  position: relative;
+  margin-top: -13vh;
+}
+#pro-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 2px white;
+}
+
+p {
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: rgb(64, 72, 82);
+}
+
+/* SKILLs */
+
+
+.sec-heading{
+  font-size: 40px;
+  /*padding: 20px 20px 20px;*/
+}
+
+.sec-heading span{
+  color: rgb(30, 80, 143);
+  margin-right: 4px;
+  font-family: "Lucida Grande";
+  font-weight: 520;
+}
+
+.skills-display{
+  width: 70%;
+  height: 100px;
+  border:4px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-progress{
+  width:90px;
+  height:20px;
+  background-color: #c9c7c3;
+  border-radius: 20px;
+
+  /*border-color: inherit;*/
+}
+
+.skill-comp{
+  height:inherit;
+  border-radius: 20px 0px 0px 20px;
+}
+
+/*perc*/
+
+._85{
+  width:85%;
+}
+
+._90{
+  width:90%;
+}
+
+._75{
+  width:85%;
+}
+
+.skill-name{
+   font-size: 14px;
+   color: white;
+   padding-left: 6px;
+ }
+
+/*eDcution*/
+
+.edu{
+  width: 75%;
+}
+
+.clg{
+  min-height: 100px;
+  width: 40%;
+  margin:4px;
+  background-color: #fcfcfc;
+}
+
+.clg:nth-child(2n){
+  margin-left:  53%;
+}
+
+.clg-name{
+  color: #154cb3;
+  padding-left:15px;
+  padding-top: 15px;
+}
+
+.clg>p{
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-top: -14px;
+}
+
+/*PROjects*/
+
+.proj{
+  width: 75%;
+}
+
+/*certifications*/
+
+.cert{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.cert>a{
+    margin-left: 5px;
+    color:#2b41ab;
+    font-size: 16px;
+    text-decoration:none;
+    font-weight: bold;
+}
+.cert>a:hover{
+  font-size:17px;
+  color:#1e3085;
+  transition: 0.4s;
+}
+
+/*Contact*/
+
+#contact{
+  margin-top: 40px;
+  width: 100%;
+  height:76vh;
+  background-image: linear-gradient(45deg, #0531ff, #192769,#451d19);
+  margin-bottom: -15px;
+}
+
+.cntct{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.feedback input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#msg button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+
+.cntct p,h4,span{
+  color: white;
+}
+.contact p{
+    margin: -2px;
+}
+
+.feedback{
+  width: 45%;
+  height: inherit;
+}
+
+.feedback> h4,label,a{
+    color: white;
+}
+
+.text-center{
+  text-align:center;
+}
