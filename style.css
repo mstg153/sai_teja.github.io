@@ -6,7 +6,7 @@ body{
 
 #body-header{
   height: 65vh;
-  background-image: url("https://github.com/mstg153/profile/blob/main/picture4.jpg");
+  background-image: url("picture4.jpg");
   opacity: 0.8;
   background-position:center;
   background-attachment: fixed;
